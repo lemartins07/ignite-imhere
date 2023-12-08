@@ -4,11 +4,16 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#131016',
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 24
   },
-  text: {
-    color: '#fff',
-    fontSize: 24
+  eventName: {
+    color: '#FDFCFE',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 48
+  },
+  eventDate: {
+    color: '#6B6B6B',
+    fontSize: 16
   }
-});
+})
